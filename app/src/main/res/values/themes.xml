@@ -1,9 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FEMTSProject" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.FEMTSProject" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.FEMTSProject" parent="Base.Theme.FEMTSProject" />
+    <style name="Theme.FEMTSProject" parent="Base.Theme.FEMTSProject">
+        <item name="android:windowBackground">#F8FAFC</item>
+        <item name="android:fontFamily">@font/inter_18pt_regular</item>
+    </style>
 </resources>
